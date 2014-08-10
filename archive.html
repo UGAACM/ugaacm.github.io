@@ -4,6 +4,6 @@ layout: default
 <div class="posts">
   
   {% for post in site.posts %}
-  <p><< <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> written on {{ page.date | date: "%B %e, %Y" }} >></p>
+  <p><< <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> written on {{ post.date | date: "%B %e, %Y" }} >></p>
   {% endfor %}
 </div>
