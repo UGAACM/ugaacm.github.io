@@ -5,7 +5,7 @@ title: Hello World
 
 One thing I've wanted to do for a while now get a blog going. With this post I wanted to outline the what it is all about.
 
-Before I get started though, I would like to thank Barry Clark for his [Jekyll Now] (https://github.com/barryclark/jekyll-now) from which this blog is forked. His work helped me set this up within an hour without prior experience or knowledge.
+Before I get started though, I would like to thank Barry Clark for his [Jekyll Now](https://github.com/barryclark/jekyll-now) from which this blog is forked. His work helped me set this up within an hour without prior experience or knowledge.
 
 With that out of the way lets get started.
 
