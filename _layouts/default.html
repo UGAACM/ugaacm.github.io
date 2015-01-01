@@ -24,9 +24,9 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+    <div class="jekyll-now-wrapper-masthead">
+      <div class="jekyll-now-container">
+        <header class="jekyll-now-masthead jekyll-now-clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
@@ -43,13 +43,13 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="jekyll-now-container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
+    <div class="jekyll-now-wrapper-footer">
+      <div class="jekyll-now-container">
+        <footer class="jekyll-now-footer">
           {% include svg-icons.html %}
         </footer>
       </div>
@@ -58,4 +58,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
     {% include analytics.html %}
   </body>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 </html>
