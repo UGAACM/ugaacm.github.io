@@ -14,6 +14,41 @@ avatar: http://i.imgur.com/7q4q1rz.png
 #
 # Flags below are optional
 #
+president:
+  name: Chris Ghyzel
+  descr:
+  image: chrisghyzel.jpg
+  email: ghyzel.chris@gmail.com
+  website:
+
+vice-president:
+  name: Anurag Banerjee
+  descr:
+  image: anurag.jpg
+  email:
+  website:
+
+webmaster:
+  name: Jaicob Stewart
+  descr:
+  image: jaicob.jpg
+  email:
+  website:
+
+treasurer:
+  name: Craig Butler
+  descr:
+  image: craigbutler.jpg
+  email:
+  website:
+
+secretary:
+  name: Chan Jong
+  descr:
+  image: chanjong.jpg
+  email:
+  website:
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -26,7 +61,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
+  twitter: ugaacm
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
@@ -37,7 +72,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://archos67.github.io
+url: http://ugaacm.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
