@@ -7,4 +7,4 @@ title: About
 
 ### Contact Us
 
-[ghyzel.chris@gmail.com](mailto:ghyzel.chris@gmai.com)
+To get in touch with us you can contact any of the officers directly.
