@@ -4,8 +4,6 @@ title: Happy New Year!
 author: Chris Ghyzel
 ---
 
-
-\\
 Hi everyone!
 
 To start the New Year we've launched a new website for the University of Georgia's Chapter of the Association for Computing Machinery.
