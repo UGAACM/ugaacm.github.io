@@ -2,70 +2,85 @@
 layout: default
 title: About
 ---
+<h1>Contact Us</h1>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
+    <h4>Contact us by emailing any of the officers below, or by emailing <a href="mailto:{{ site.organization.email }}">{{ site.organization.email }}</a>.</h4>
+  </div>
+</div>
+
 <h1>Current Officers</h1>
 <div class="row">
-<div class="col-md-6 officer-container">
-  <h2>President</h2>
-  <img class="officer-image" src="images/{{ site.president.image }}"></img>
+  <div class="col-md-5">
+    <h2>President</h2>
+    <div class="row officer-container">
+      <div class="col-md-5">
+        <img class="officer-image" src="images/{{ site.president.image }}"></img>
+      </div>
+      <div class="col-md-7">
+        <h4>{{ site.president.name }}</h4>
+        <p> {{ site.president.descr }} </p>
+        <p> <a href="mailto:{{site.president.email}}">{{ site.president.email }}</a> </p>
+        <p> <a href="http://{{ site.president.website }}">{{ site.president.website }}</a> </p>
+      </div>
+    </div>
 
-  <div class="officer-description">
-    <h4>{{ site.president.name }}</h4>
-    <p> {{ site.president.descr }} </p>
-    <p> <a href="mailto:{{site.president.email}}">{{ site.president.email }}</a> </p>
-    <p> <a href="http://{{ site.president.website }}">{{ site.president.website }}</a> </p>
-  </div>
-</div>
 
-<div class="col-md-6 officer-container">
-  <h2>Vice President</h2>
-
-  <img class="officer-image" src="images/{{ site.vice-president.image }}"></img>
-
-  <div class="officer-description">
-    <h4>{{ site.vice-president.name }}</h4>
-    <p> {{ site.vice-president.descr }} </p>
-    <p> <a href="mailto:{{site.president.email}}">{{ site.vice-president.email }}</a> </p>
-    <p> <a href="http://{{ site.president.website }}">{{ site.vice-president.website }}</a> </p>
-  </div>
-</div>
-</div>
-<div class="row">
-  <div class="col-md-6 officer-container">
     <h2>Webmaster</h2>
-    <img class="officer-image" src="images/{{ site.webmaster.image }}"></img>
-
-    <div class="officer-description">
-      <h4>{{ site.webmaster.name }}</h4>
-      <p> {{ site.webmaster.descr }} </p>
-      <p> <a href="mailto:{{site.webmaster.email}}">{{ site.webmaster.email }}</a> </p>
-      <p> <a href="http://{{ site.webmaster.website }}">{{ site.webmaster.website }}</a> </p>
+    <div class="row officer-container">
+      <div class="col-md-5">
+        <img class="officer-image" src="images/{{ site.webmaster.image }}"></img>
+      </div>
+      <div class="col-md-7">
+        <h4>{{ site.webmaster.name }}</h4>
+        <p> {{ site.webmaster.descr }} </p>
+        <p> <a href="mailto:{{site.webmaster.email}}">{{ site.webmaster.email }}</a> </p>
+        <p> <a href="http://{{ site.webmaster.website }}">{{ site.webmaster.website }}</a> </p>
+      </div>
     </div>
-  </div>
 
-  <div class="col-md-6 officer-container">
-    <h2>Treasurer</h2>
-
-    <img class="officer-image" src="images/{{ site.treasurer.image }}"></img>
-
-    <div class="officer-description">
-      <h4>{{ site.treasurer.name }}</h4>
-      <p> {{ site.treasurer.descr }} </p>
-      <p> <a href="mailto:{{site.treasurer.email}}">{{ site.treasurer.email }}</a> </p>
-      <p> <a href="http://{{ site.treasurer.website }}">{{ site.treasurer.website }}</a> </p>
-    </div>
-  </div>
-</div>
-<div class="row officer-container">
-  <div class="col-md-6">
     <h2>Secretary</h2>
+    <div class="row officer-container">
+      <div class="col-md-5">
+        <img class="officer-image" src="images/{{ site.secretary.image }}"></img>
+      </div>
+      <div class="col-md-7">
+        <h4>{{ site.secretary.name }}</h4>
+        <p> {{ site.secretary.descr }} </p>
+        <p> <a href="mailto:{{site.secretary.email}}">{{ site.secretary.email }}</a> </p>
+        <p> <a href="http://{{ site.secretary.website }}">{{ site.secretary.website }}</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
 
-    <img class="officer-image" src="images/{{ site.secretary.image }}"></img>
+    <h2>Vice President</h2>
+    <div class="row officer-container">
+      <div class="col-md-5">
+        <img class="officer-image" src="images/{{ site.vice-president.image }}"></img>
+      </div>
+      <div class="col-md-7">
+        <h4>{{ site.vice-president.name }}</h4>
+        <p> {{ site.vice-president.descr }} </p>
+        <p> <a href="mailto:{{site.president.email}}">{{ site.vice-president.email }}</a> </p>
+        <p> <a href="http://{{ site.president.website }}">{{ site.vice-president.website }}</a> </p>
+      </div>
+    </div>
 
-    <div class="officer-description">
-      <h4>{{ site.secretary.name }}</h4>
-      <p> {{ site.secretary.descr }} </p>
-      <p> <a href="mailto:{{site.secretary.email}}">{{ site.secretary.email }}</a> </p>
-      <p> <a href="http://{{ site.secretary.website }}">{{ site.secretary.website }}</a> </p>
+    <h2>Treasurer</h2>
+    <div class="row officer-container">
+      <div class="col-md-5">
+        <img class="officer-image" src="images/{{ site.treasurer.image }}"></img>
+      </div>
+      <div class="col-md-7">
+        <h4>{{ site.treasurer.name }}</h4>
+        <p> {{ site.treasurer.descr }} </p>
+        <p> <a href="mailto:{{site.treasurer.email}}">{{ site.treasurer.email }}</a> </p>
+        <p> <a href="http://{{ site.treasurer.website }}">{{ site.treasurer.website }}</a> </p>
+      </div>
     </div>
   </div>
 </div>

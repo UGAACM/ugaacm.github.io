@@ -19,6 +19,8 @@ icon: http://i.imgur.com/7q4q1rz.png
 #
 
 #settings for the about page
+organization:
+  email: #acm@uga.edu
 president:
   name: Chris Ghyzel
   descr:
