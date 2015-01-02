@@ -9,8 +9,8 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="jekyll-now-date">
+     Posted on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }} {% endif %}
   </div>
 
   {% include disqus.html disqus_identifier=page.disqus_identifier %}
