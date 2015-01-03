@@ -306,6 +306,12 @@ footer {
   text-align: center;
 }
 
+.uga-notice {
+	margin-top: 10px;
+	font-size: 10px;
+	text-align: center;
+	margin-bottom: -40px;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
