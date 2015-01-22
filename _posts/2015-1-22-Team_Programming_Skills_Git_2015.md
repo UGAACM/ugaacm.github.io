@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Team Programming Skills: git
+title: Team Programming Skills 
 author: Jaicob Stewart
 ---
 
