@@ -9,7 +9,12 @@ Until that time an email will be sent out with the meeting details, and you can 
 
 Necessary Software:
 Mac OS X (if you have a windows device but would still like to develop it email cwb12669@uga.edu (Craig Butler).
+Xcode
 
 Beginner
 ========
 The beginner group will focus on learning Objective C, and have basic lessons on using xcode.
+
+Advanced
+========
+The advanced group's meetings will start at approximately 7:45. They will consist of working on higher level apps and semester long projects. You can come if you want aid with your app or just want to brainstorm and work with a group.
