@@ -7,9 +7,18 @@ The leader of the club is Justin Lennox, his email is quotidianmusic@gmail.com. 
 The group meets Wednesdays at 7:00 PM (a permanent room is currenty being figured out). 
 Until that time an email will be sent out with the meeting details, and you can check the ACM Calendar at http://ugaacm.com/calendar.html.
 
+
+
 Necessary Software:
+-------------------
 Mac OS X (if you have a windows device but would still like to develop it email cwb12669@uga.edu (Craig Butler).
 Xcode
+
+General Meeting Agenda
+----------------------
+Presentation/Lesson 7:00 - 7:20 (20 Minutes)
+Open Lab 7:20 - 8:00 (40 Minutes)
+Advanced Group Lab 8:00 - 9:00 (60 Minutes)
 
 Beginner
 ========
