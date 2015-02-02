@@ -233,7 +233,25 @@ img {
   }
 }
 
-nav {
+nav {	ul { 
+		padding: 0;
+		margin: 0;
+		background: #fff;
+	}
+	li { 
+		display: inline;
+		position: relative; 
+	}
+	ul ul { 
+		position: absolute; 
+		left: 0; 
+		top: 100%; 
+		display: none; 
+	}
+	
+	li:hover ul { 
+		display: block;
+	}
   // float: right;
   margin-top: 13px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
@@ -247,7 +265,7 @@ nav {
   }
 
   a {
-    margin-left: 10px;
+    margin-left: 15px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -257,9 +275,9 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+    
   }
 }
-
 //
 // .main
 //
