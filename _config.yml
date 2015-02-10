@@ -30,16 +30,16 @@ president:
 
 vice-president:
   name: Anurag Banerjee (AJ)
-  descr:
+  descr: "Hackathon Committee Director"
   image: anurag.jpg
   email: anuragbanerjee@uga.edu
   website: anuragbanerjee.me
 
 webmaster:
   name: Jaicob Stewart
-  descr:
+  descr: "Advanced iOS dev group leader and Hackathon Committee PR Officer"
   image: jaicob.jpg
-  email:
+  email: jaicob@icloud.com
   website:
 
 treasurer:
@@ -53,7 +53,7 @@ secretary:
   name: Chan Jong
   descr:
   image: chanjong.jpg
-  email:
+  email: chanjongjung@gmail.com
   website:
 
 
@@ -67,7 +67,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: http://ugaacm.com/feed # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: ugaacm
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
