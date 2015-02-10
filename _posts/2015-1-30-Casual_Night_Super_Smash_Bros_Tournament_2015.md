@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Casual Night: Super Smash Bros Tournament
+title: "Casual Night: Super Smash Bros Tournament"
 author: Anurag Banerjee
 ---
 
