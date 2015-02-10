@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: "post"
 title: "Casual Night: Super Smash Bros Tournament"
-author: Anurag Banerjee
+author: "Anurag Banerjee"
 ---
 
 ![Smash Bros Tournament Bracket]({{ site.url }}/images/uga_acm_smash_bros_tournament_2015-01-29.png)
