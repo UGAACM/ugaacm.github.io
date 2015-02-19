@@ -55,16 +55,7 @@ body {
 
 .officer-description {
 }
-table, td, th {
-	//width: 100%;
-}
-th {
-	text-align: center;
-	
-}
-td {
-	text-align: left;
-}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -260,7 +251,6 @@ nav {	ul {
 	
 	li:hover ul { 
 		display: block;
-		align: 
 	}
   // float: right;
   margin-top: 13px; // @TODO: Vertically middle align
