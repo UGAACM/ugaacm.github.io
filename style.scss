@@ -56,9 +56,16 @@ body {
 .officer-description {
 }
 table, td, th {
-	width: 20%;
+	width: 40%;
 	border-collapse: collapse;
 	border: 1px solid grey;
+}
+th {
+	text-align: center;
+	
+}
+td {
+	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
