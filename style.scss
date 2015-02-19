@@ -55,7 +55,11 @@ body {
 
 .officer-description {
 }
-
+table, td, th {
+	width: 20%;
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
