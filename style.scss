@@ -254,8 +254,7 @@ nav {	ul {
 	li:hover ul { 
 		display: block;
 		background-color: #fff;
-		position: fixed;
-		z-index:999;
+		position: absolute;
 		
 	}
 
