@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "CSS Animations and Better UX with Zach Saucier"
+title: "CSS Animations & Better UX with Zach Saucier"
 author: "Anurag Banerjee"
 ---
 
