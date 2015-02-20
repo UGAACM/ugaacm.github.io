@@ -242,6 +242,7 @@ nav {	ul {
 	li { 
 		display: inline;
 		position: relative; 
+		white-space: nowrap;
 	}
 	ul ul { 
 		position: absolute; 
@@ -253,6 +254,7 @@ nav {	ul {
 	li:hover ul { 
 		display: block;
 		background-color: #fff;
+		white-space: nowrap;
 	}
 
   // float: right;
