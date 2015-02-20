@@ -31,28 +31,37 @@ title: Contact
 <tr>
 <td>
     <h2>Secretary</h2>
-        <img class="officer-image" src="images/{{ site.secretary.image }}"></img>
+    <table><tr><td>
+        <img class="officer-image" src="images/{{ site.secretary.image }}"></img></td>
+        <td>
         <h4>{{ site.secretary.name }}</h4>
         <p> {{ site.secretary.descr }} </p>
         <p> <a href="mailto:{{ site.secretary.email }}">{{ site.secretary.email }}</a> </p>
+        </td></tr></table>
         </td>
       <td>
     <h2>Vice President</h2>
-        <img class="officer-image" src="images/{{ site.vice-president.image }}"></img>
+    <table><tr><td style="width:30%;">
+        <img class="officer-image" src="images/{{ site.vice-president.image }}"></img></td>
+        <td>
         <h4>{{ site.vice-president.name }}</h4>
         <p> {{ site.vice-president.descr }} </p>
         <p> <a href="mailto:{{ site.vice-president.email }}">{{ site.vice-president.email }}</a> </p>
         <p> <a href="http://{{ site.vice-president.website }}">{{ site.vice-president.website }}</a> </p>
+        </td></tr></table>
         </td>
         </tr>
 <tr>
 <td>
     <h2>Treasurer</h2>
-        <img class="officer-image" src="images/{{ site.treasurer.image }}"></img>
+    <table><tr><td>
+        <img class="officer-image" src="images/{{ site.treasurer.image }}"></img></td>
+        <td>
         <h4>{{ site.treasurer.name }}</h4>
         <p> {{ site.treasurer.descr }} </p>
         <p> <a href="mailto:{{ site.treasurer.email }}">{{ site.treasurer.email }}</a> </p>
         <p> <a href="http://{{ site.treasurer.website }}">{{ site.treasurer.website }}</a> </p>
+        </td></tr></table>
         </td>
         </tr>
         </table>
