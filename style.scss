@@ -252,8 +252,9 @@ nav {	ul {
 	
 	li:hover ul { 
 		display: block;
-		background: #fff;
+		background-color: #fff;
 	}
+
   // float: right;
   margin-top: 13px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
