@@ -6,13 +6,16 @@ title: Contact
 <h1 style="margin-bottom:-15px;">Current Officers</h1>
 <table>
 <tr>
-<td style="width:50%;">
+<td style="width:50%;border:0px;">
     <h2>President</h2>
-        <img class="officer-image" src="images/{{ site.president.image }}"></img>
+    <table><tr><td>
+        <img class="officer-image" src="images/{{ site.president.image }}"></img></td>
+        <td>
         <h4>{{ site.president.name }}</h4>
         <p> {{ site.president.descr }} </p>
         <p> <a href="mailto:{{ site.president.email }}">{{ site.president.email }}</a> </p>
         <p> <a href="http://{{ site.president.website }}">{{ site.president.website }}</a> </p>
+        </td></tr></table>
         </td>
     <td style="width:50%;">
     <h2>Webmaster</h2>
