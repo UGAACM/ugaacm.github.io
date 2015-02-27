@@ -40,6 +40,7 @@ body {
 	}
   margin: 0 0px;
   padding: 5px 0px;
+  height: 300px;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -241,6 +242,7 @@ nav {	ul {
 	li { 
 		display: inline;
 		position: relative; 
+		
 	}
 	ul ul { 
 		position: absolute; 
@@ -251,7 +253,10 @@ nav {	ul {
 	
 	li:hover ul { 
 		display: block;
+		background-color: #fff;
+		
 	}
+
   // float: right;
   margin-top: 13px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
